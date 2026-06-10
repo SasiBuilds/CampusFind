@@ -1,0 +1,26 @@
+app:
+  name: CampusFind
+  version: 1.0.0
+  description: Platform for college students to post and search lost or found items.
+
+server:
+  port: 8080
+  host: localhost
+
+database:
+  type: mysql
+  host: localhost
+  port: 3306
+  name: campusfind_db
+  user: root
+  password: yourpassword
+
+features:
+  - post_lost_item
+  - post_found_item
+  - search_items
+  - user_authentication
+
+author:
+  name: SasiBuilds
+  email: sasibuilds@example.com
