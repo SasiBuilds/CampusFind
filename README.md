@@ -72,6 +72,7 @@ campus-find/
 │   ├── images/
 │   └── icons/
 └── README.md
+---
 
 🌱 Future Improvements
 
@@ -83,6 +84,7 @@ campus-find/
 . Advanced search filters
 . Mobile app version
 
+---
 
 ✨ Quote
 
