@@ -61,17 +61,18 @@ Clone the repository:
 ```bash
 git clone https://github.com/SasiBuilds/campus-find.git
 
-## 📂 Folder Structure 
+📂 Folder Structure 
 
 campus-find/
 │
 ├── index.html
-├── style.css
+├── style.cs
 ├── script.js
 ├── assets/
 │   ├── images/
 │   └── icons/
 └── README.md
+
 ---
 
 ## 🌱 Future Improvements
@@ -86,6 +87,6 @@ campus-find/
 
 ---
 
-## ✨ Quote
+✨ Quote
 
 “Simple design, powerful navigation, better learning experience.”
