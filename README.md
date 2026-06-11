@@ -61,7 +61,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/SasiBuilds/campus-find.git
 
-📂 Folder Structure 
+## 📂 Folder Structure 
 
 campus-find/
 │
@@ -74,7 +74,7 @@ campus-find/
 └── README.md
 ---
 
-🌱 Future Improvements
+## 🌱 Future Improvements
 
 . Add real campus map integration
 . Backend support for dynamic locations
@@ -86,6 +86,6 @@ campus-find/
 
 ---
 
-✨ Quote
+## ✨ Quote
 
 “Simple design, powerful navigation, better learning experience.”
