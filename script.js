@@ -1,16 +1,38 @@
-function postLost() {
-  alert("Redirecting to Lost Item form...");
-}
+// CampusFind Main JS
 
-function postFound() {
-  alert("Redirecting to Found Item form...");
-}
+document.addEventListener("DOMContentLoaded", () => {
 
-function searchItems() {
-  const query = document.getElementById("searchInput").value;
-  if (query.trim() === "") {
-    alert("Please enter something to search.");
-  } else {
-    alert("Searching for: " + query);
-  }
-}
+    console.log("CampusFind Loaded");
+
+    // Search Button
+    const searchBtn = document.querySelector(".search-box button");
+
+    if (searchBtn) {
+        searchBtn.addEventListener("click", () => {
+
+            const input = document.querySelector(".search-box input");
+
+            if (!input.value.trim()) {
+                alert("Please enter a search term");
+                return;
+            }
+
+            alert("Searching: " + input.value);
+        });
+    }
+
+    // Forms
+    const forms = document.querySelectorAll("form");
+
+    forms.forEach(form => {
+
+        form.addEventListener("submit", (e) => {
+
+            e.preventDefault();
+
+            alert("Form Submitted Successfully");
+        });
+
+    });
+
+});
