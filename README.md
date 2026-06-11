@@ -50,7 +50,7 @@ Search UI Screenshot
 
 ## 🌐 Live Demo
 
-🔗 https://your-live-demo-link-here.com
+🔗 https://sasibuilds.github.io/campus-find/
 
 ---
 
